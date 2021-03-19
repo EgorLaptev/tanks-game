@@ -1,0 +1,55 @@
+body {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	background-color: #000600;
+}
+
+.map {
+	position: relative;
+	width: 1100px;
+	height: 700px;
+	border: 1px solid black;
+	background: url(../Images/bg.jpg);
+	border: 5px solid #001000;
+}
+
+.map div {
+	position: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.wall {
+	background: url(../Images/wall.jpg);
+	width: 50px;
+	height: 50px;
+}
+
+.apple {
+	background-color: gold;
+	width: 35px;
+	height: 35px;
+	transform: translate(25%,25%);
+}
+
+.enemy {
+	background: url(https://lh3.ggpht.com/I7Jn5uXVTjI8cg6n8nqukgnUCibVA51LtQg8Dui2jr-9f12dZkEDhAuH7eS4RGIZLmI=s360) no-repeat 50% 50%;
+	background-size: 110%;
+	width: 50px;
+	height: 50px;
+}
+
+.tank {
+	background: url(https://ru.wargaming.net/clans/media/clans/emblems/cl_392/168392/emblem_64x64.png) no-repeat 50% 50%;
+	background-size: 110%;
+	height: 50px;
+	width: 50px;
+}
